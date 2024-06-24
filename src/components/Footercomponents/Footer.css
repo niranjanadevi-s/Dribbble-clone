@@ -1,0 +1,153 @@
+.footer {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.footer-container {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 1200px; /* Ensure it doesn't stretch too wide */
+}
+
+.footer-learn-more {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add a gap between Learn More and the rest of the footer */
+}
+
+.learn-more {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f0f0f0; /* Background color for the curved box */
+  padding: 10px 20px;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  transition: background-color 0.3s ease; /* Optional: Add a transition for hover effect */
+}
+
+.learn-more:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.footer-nav ul, .footer-social ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li, .footer-social li {
+  margin-right: 20px;
+}
+
+.footer-nav a, .footer-left a, .footer-right a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.footer-left span {
+  margin-right: 20px;
+}
+
+.footer-left a {
+  margin-right: 10px;
+}
+
+.footer-right a {
+  margin-left: 10px;
+}
+
+.footer-social {
+  margin-left: -10px; /* Move the social icons to the left */
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-color: #333; /* Placeholder color */
+  border-radius: 50%;
+  position: relative;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+/* Twitter Icon */
+.twitter-icon {
+  background-color: #1DA1F2;
+}
+.twitter-icon::before {
+  content: "T";
+}
+
+/* Facebook Icon */
+.facebook-icon {
+  background-color: #1877F2;
+}
+.facebook-icon::before {
+  content: "F";
+}
+
+/* Instagram Icon */
+.instagram-icon {
+  background: radial-gradient(circle at 30% 30%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.instagram-icon::before {
+  content: "I";
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+  background-color: #25D366;
+}
+.whatsapp-icon::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  box-sizing: border-box;
+}
+.whatsapp-icon::after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 12px;
+  left: 9px;
+  transform: rotate(-45deg);
+  transform-origin: center center;
+  box-sizing: border-box;
+}

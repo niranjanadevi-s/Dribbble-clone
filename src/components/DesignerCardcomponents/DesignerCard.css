@@ -1,0 +1,104 @@
+
+.designer-card {
+  width: calc(25% - 12px); /* 25% width minus half of the gap to maintain the spacing */
+  margin: 0 6px 16px; /* Horizontal margin for spacing between columns */
+  cursor: pointer;
+}
+
+.card-image {
+  width: 100%;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.designer-card:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-title {
+  color: white;
+  font-size: 16px;
+  margin: 8px;
+}
+
+.card-info {
+  padding: 8px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.designer-info {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.designer-name {
+  margin-right: 8px;
+}
+
+.pro-badge {
+  background: rgb(207, 206, 202);
+  color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  
+}
+
+
+.title {
+  flex-grow: 1; /* Allow title to take remaining space */
+  font-size: 14px; /* Adjust font size as needed */
+  font-weight: bold; /* Make title bold or adjust styling as per your design */
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.stat-item {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.stat-item .icon-heart,
+.stat-item .icon-eye {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stat-item .icon-heart::before {
+  content: "❤";
+  font-size: 16px;
+  color: rgb(126, 125, 125);
+}
+
+.stat-item .icon-eye::before {
+  content: "👁";
+  font-size: 16px;
+  color: rgb(44, 40, 40);
+}
+
+  

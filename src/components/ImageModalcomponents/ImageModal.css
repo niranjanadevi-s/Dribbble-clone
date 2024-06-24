@@ -1,0 +1,37 @@
+/* ImageModal.css */
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90%; /* Limit maximum width of modal content */
+  max-height: 90%; /* Limit maximum height of modal content */
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.full-image {
+  max-width: 100%; /* Ensure image fits within modal content */
+  max-height: 100%; /* Ensure image fits within modal content */
+  display: block; /* Ensure image behaves as block element */
+  margin: auto; /* Center image horizontally */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
