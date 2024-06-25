@@ -1,4 +1,4 @@
-import image1 from "../../assets/image/image1"
+import image1 from "../../assets/image/image1.jpg"
 import React, { useState } from 'react';
 
 import DesignerCard from '../DesignerCardcomponents/DesignerCard';
@@ -7,7 +7,7 @@ import './Gallery.css';
 
 const designerData = [
   { image: image1, title: 'Draw the lines poster', designer: 'Davor', likes: 1, views: 18, pro: true },
-  { image: 'src/assets/image/image2.png', title: 'Build Not Bough', designer: 'Movink Graphic Studio', likes: 0, views: 65, pro: true },
+  { image: '../../assets/image/image2.png', title: 'Build Not Bough', designer: 'Movink Graphic Studio', likes: 0, views: 65, pro: true },
   { image: 'src/assets/image/image3.png', title: 'June Typeface duos', designer: 'Vasil Enev', likes: 6, views: 381, pro: true },
   { image: 'src/assets/image/image4.jpg', title: 'MAD BOT', designer: 'Davor', likes: 1, views: 131, pro: true },
   { image: 'src/assets/image/image5.png', title: 'Horrors of WWII', designer: 'Davor', likes: 1, views: 108, pro: true },
