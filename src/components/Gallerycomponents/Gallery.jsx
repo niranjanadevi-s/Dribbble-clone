@@ -1,10 +1,12 @@
+import '../assets/images/image1.jpg'
 import React, { useState } from 'react';
+
 import DesignerCard from '../DesignerCardcomponents/DesignerCard';
 import ImageModal from '../ImageModalcomponents/ImageModal';
 import './Gallery.css';
 
 const designerData = [
-  { image: 'src/assets/image/image1.jpg', title: 'Draw the lines poster', designer: 'Davor', likes: 1, views: 18, pro: true },
+  { image: image1, title: 'Draw the lines poster', designer: 'Davor', likes: 1, views: 18, pro: true },
   { image: 'src/assets/image/image2.png', title: 'Build Not Bough', designer: 'Movink Graphic Studio', likes: 0, views: 65, pro: true },
   { image: 'src/assets/image/image3.png', title: 'June Typeface duos', designer: 'Vasil Enev', likes: 6, views: 381, pro: true },
   { image: 'src/assets/image/image4.jpg', title: 'MAD BOT', designer: 'Davor', likes: 1, views: 131, pro: true },
@@ -37,6 +39,8 @@ const Gallery = () => {
   const handleCloseModal = () => {
     setSelectedImage(null);
   };
+
+  
 
   return (
     <div className="gallery">

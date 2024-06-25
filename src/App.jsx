@@ -15,6 +15,8 @@ const App = () => {
             <Gallery />
             <Footer />
             <ImageSearch />
+           
+           
             
             
           
