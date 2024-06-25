@@ -44,7 +44,7 @@ const designerData = [
   { image: image16, title: 'Pop Art', designer: 'Ivy', likes: 50, views: 1250, pro: false },
   { image: image17, title: 'Digital Illustration', designer: 'Jack', likes: 65, views: 1300, pro: true },
   { image: image18, title: 'Watercolor Painting', designer: 'Kate', likes: 70, views: 1400, pro: false },
-  { image: image19.jpg, title: 'Typography Design', designer: 'Leo', likes: 25, views: 650, pro: true },
+  { image: image19, title: 'Typography Design', designer: 'Leo', likes: 25, views: 650, pro: true },
   { image: image20, title: 'Concept Art', designer: 'Mona', likes: 85, views: 1500, pro: false }
 
 ];
