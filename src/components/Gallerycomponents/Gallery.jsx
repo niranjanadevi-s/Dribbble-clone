@@ -1,4 +1,4 @@
-import '../assets/images/image1.jpg'
+import '../assets/image/image1.jpg'
 import React, { useState } from 'react';
 
 import DesignerCard from '../DesignerCardcomponents/DesignerCard';
